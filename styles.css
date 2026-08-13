@@ -249,7 +249,7 @@ a{
     margin: 42vw auto 0;
     display: flex;
     flex-direction: column;
-    gap:200px;
+    gap: 260px;
     padding: 0 58px;
     position: relative;
     z-index: 20;
@@ -257,7 +257,7 @@ a{
 
 .cards{
     display: flex;
-    align-items: center;
+    align-items: flex-start;
     justify-content: space-between;
     width: 100%;
     gap: 110px;
@@ -320,18 +320,10 @@ a{
 }
 
 
-.card-01 .card-txt {
-    margin-top: -250px;
-}
-
-
-.card-02 .card-txt {
-    margin-top: -260px;
-}
-
-
+.card-01 .card-txt,
+.card-02 .card-txt,
 .card-03 .card-txt {
-    margin-top: -260px;
+    margin-top: 115px;
 }
 
 
