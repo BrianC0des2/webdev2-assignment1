@@ -17,7 +17,7 @@
             <div class="bg-gradient-bot"></div>
         </div>
         <header>
-            <nav>
+            <nav   id="start">
                 <a href="#">
                     <img src="./assets/logo.png" alt="WEBD Logo" height="24px">
                 </a>
@@ -60,7 +60,7 @@
                         Mountains And Beyond!</h1>
 
                     <div class="bot-txt">
-                        <a href="#">
+                        <a href="#sections">
                             scroll down
                             <svg width="16" height="24" viewBox="0 0 16 24" fill="none" xmlns="http://www.w3.org/2000/svg">
                                 <path d="M16 16L14.59 14.59L9 20.17V0H7V20.17L1.42 14.58L0 16L8 24L16 16Z" fill="#FA9595"/>
@@ -71,16 +71,16 @@
                 </div>
 
                 <div class="right">
-                    <span class="start-txt">Start</span>
-                    <span class="n1">01</span>
-                    <span class="n2">02</span>
-                    <span class="n3">03</span>
+                    <a class="start-txt" href="#start">Start</a>
+                    <a class="n1" href="#section1">01</a>
+                    <a class="n2" href="#section2">02</a>
+                    <a class="n3" href="#section3">03</a>
                 </div>
 
             </div>
             
-            <div class="sections">
-                    <section class="card-01 cards">
+            <div class="sections" id="sections">
+                    <section class="card-01 cards" id="section1">
                         <div class="card-txt">
                             <span class="card-num num1">01</span>
                             <div class="top-txt-1 top-txt">
@@ -103,7 +103,7 @@
                             <img src="./assets/01.png" alt="Hiker standing on the mountain">
                         </div>
                 </section>
-                <section class="card-02 cards">
+                <section class="card-02 cards" id="section2">
                         <div class="card-img">
                             <img src="./assets/02.png" alt="">
                         </div>
@@ -126,7 +126,7 @@ Let’s start with clothing. A typical mistake hiking beginners make is wearing 
                             </a>
                         </div>
                 </section>
-                <section class="card-03 cards">
+                <section class="card-03 cards" id="section3">
                         <div class="card-txt">
                             <span class="card-num num3">03</span>
                             <div class="top-txt-3 top-txt">
@@ -156,7 +156,6 @@ Let’s start with clothing. A typical mistake hiking beginners make is wearing 
                     <img src="./assets/logo.png" alt="logo">
                     <p>Get out there & discover your next slope, mountain & destination!</p>
                 </div>
-                <span>Copyright 2026 WEBD, Inc. Terms & Privacy</span>
             </div>
             <div class="center-foot">
                 <span>More on The Blog</span>
@@ -176,6 +175,7 @@ Let’s start with clothing. A typical mistake hiking beginners make is wearing 
                     <li><a href="#">Press</a></li>
                 </ul>
             </div>
+            <span class="copyright">Copyright 2026 WEBD, Inc. Terms & Privacy</span>
         </footer>
     </body>
 </html>
