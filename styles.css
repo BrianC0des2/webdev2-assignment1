@@ -443,14 +443,13 @@ footer{
     }
 
     .sections {
-        gap:120px;
-        padding:0 40px;
-        margin-top:50vw;
+        gap: 180px;
+        padding: 0 40px;
+        margin-top: 50vw;
     }
 
     .cards {
-        gap:60px;
-
+        gap: 80px;
     }
     
     .card-num{
@@ -466,7 +465,7 @@ footer{
     }
 
     .card-txt{
-        margin-left:60px;
+        margin-left: 0;
     }
 
     .card-txt > .card-heading{
